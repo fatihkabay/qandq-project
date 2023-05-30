@@ -1,0 +1,39 @@
+.contact-page {
+    height: calc(100vh - 86px);
+}
+
+.input {
+    width: 100%;
+}
+
+.ant-form-item {
+    width: 550px;
+    border-radius: 100px;
+}
+
+.form-props {
+    width: 100vh;
+    margin-left: 280px;
+}
+
+.total-three-points {
+    display: flex;
+}
+
+.business-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.optional {
+    margin-right: 230px;
+    font-size: 12px;
+    line-height: 14.88px;
+    font-weight: 300;
+    font-family: "ubuntu" sans-serif;
+}
+
+.cookies-and-button {
+    display: flex;
+    flex-direction: column;
+}
