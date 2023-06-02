@@ -17,7 +17,7 @@ const Contact = () => {
       layout="horizontal"
       className="contact-page"
     >
-      <img style={{marginLeft: 50}} src="./topbar.png" alt="" />
+      <img style={{marginLeft: 130}} src="./topbar.png" alt="" />
       
       <div className="form-props">
         <div className="total-three-points">
@@ -89,7 +89,7 @@ const Contact = () => {
         </div>
         <p>Tell us more about your project</p>
         <Form.Item>
-          <textarea style={{ maxWidth: 865, minWidth: 315, minHeight: 30 }} />
+          <textarea className="textarea" style={{ maxWidth: 865, minWidth: 315, minHeight: 30 }} />
         </Form.Item>
         <div className="cookies-and-button">
           <Form.Item name="accept-cookies" valuePropName="checked">
@@ -105,7 +105,7 @@ const Contact = () => {
           </Form.Item>
         </div>
       </div>
-      <img style={{ margin: 0, marginLeft: 150 }} className="lowerbar" src="./lowerbar.png" alt="" />
+      <img style={{ margin: 0, marginLeft: 130 }} className="lowerbar" src="./lowerbar.png" alt="" />
     </Form>
   );
 };

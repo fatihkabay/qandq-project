@@ -1,39 +1,64 @@
-.contact-page {
-    height: calc(100vh - 86px);
-}
+    @keyframes example {
+        0% {
+            font-size: smaller;
+        }
 
-.input {
-    width: 100%;
-}
+        25% {
+            font-size: small;
+        }
 
-.ant-form-item {
-    width: 550px;
-    border-radius: 100px;
-}
+        50% {
+            font-size: medium;
+        }
 
-.form-props {
-    width: 100vh;
-    margin-left: 280px;
-}
+        100% {
+            font-size: larger;
+        }
+    }
 
-.total-three-points {
-    display: flex;
-}
+    .contact-page {
+        height: calc(100vh - 86px);
+    }
 
-.business-title {
-    display: flex;
-    justify-content: space-between;
-}
+    .input {
+        width: 100%;
+    }
 
-.optional {
-    margin-right: 230px;
-    font-size: 12px;
-    line-height: 14.88px;
-    font-weight: 300;
-    font-family: "ubuntu" sans-serif;
-}
+    .ant-form-item {
+        width: 550px;
+        border-radius: 100px;
+    }
 
-.cookies-and-button {
-    display: flex;
-    flex-direction: column;
-}
+    .form-props {
+        width: 100vh;
+        margin-left: 280px;
+    }
+
+    .total-three-points {
+        display: flex;
+    }
+
+    .business-title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .optional {
+        margin-right: 230px;
+        font-size: 12px;
+        line-height: 14.88px;
+        font-weight: 300;
+        font-family: "ubuntu"sans-serif;
+    }
+
+    .cookies-and-button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textarea {
+        transition: width 1s, height 1s, transform 1s;
+        transition-timing-function: linear;
+        animation-name: example;
+        animation-duration: 4s;
+    }
