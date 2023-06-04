@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
+@keyframes animation {
+  0%   {background-color:red; left:0px; top:0px;}
+  100% {background-color:red; left:110px; top:110px;}
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Rubik', sans-serif;
+  animation-name: animation;
 
 }

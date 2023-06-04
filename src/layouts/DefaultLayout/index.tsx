@@ -5,7 +5,7 @@ const DefaultLayout = (props: PropsWithChildren) => {
   return (
     <div>
       <header className="default-header">
-        <img className="logo" src="./qnadq.png" alt="" />
+        <a href="/"><img className="logo" src="./qnadq.png" alt="" /></a>
         <div className="btn-container">
           <button className="btn btn-contact">CONTACT</button>
           <button className="btn btn-about">ABOUT</button>

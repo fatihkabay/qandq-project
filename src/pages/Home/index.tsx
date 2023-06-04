@@ -1,9 +1,6 @@
 import "./home.css";
-import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="home-page">
       <div className="description">
@@ -26,11 +23,7 @@ const Home = () => {
           </div>
           <div className="bar-and-button">
             <img className="topbar" src="./topbar.png" alt="" />
-            <button
-              onClick={() => {
-                navigate("/contact");
-              }}
-              className="contact-btn"
+            <button className="contact-btn"
             >
               Contact Us
             </button>
