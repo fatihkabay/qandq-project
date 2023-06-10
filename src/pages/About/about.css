@@ -1,6 +1,27 @@
+.about-page {
+    height: 100vh;
+}
+
+.description-container {
+    margin-left: 900px
+}
+
 .title {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
     margin-left: 30px;
+    margin-top: 132px;
+}
+
+.side-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+   
+}
+
+.underline {
+    text-decoration-color: #D53B4A;
 }

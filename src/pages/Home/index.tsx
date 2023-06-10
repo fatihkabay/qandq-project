@@ -23,7 +23,7 @@ const Home = () => {
           </div>
           <div className="bar-and-button">
             <img className="topbar" src="./topbar.png" alt="" />
-            <button className="contact-btn">Contact Us</button>
+            <button className="contact-navigate-btn">Contact Us</button>
             <img className="lowerbar" src="./lowerbar.png" alt="" />
           </div>
         </div>
