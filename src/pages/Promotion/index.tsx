@@ -1,13 +1,13 @@
-import "./about.css";
+import "./promotion.css";
 
-const About = () => {
+const Promotion = () => {
   return (
     
-    <div className="about-page">
+    <div className="promotion-page">
       <h1 className="title">Who We Are?</h1>
       <div className="description-container">
       <h2 className="side-title">How It Started?</h2>
-      <p>
+      <p className="text">
         <p>
         Although we were established in January 2022, we started working in 2018
         to provide the service you need in</p>
@@ -27,4 +27,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Promotion;

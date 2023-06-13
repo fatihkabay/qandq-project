@@ -1,4 +1,4 @@
-.about-page {
+.promotion-page {
     height: 100vh;
 }
 
@@ -19,9 +19,12 @@
     font-size: 32px;
     line-height: 40px;
     letter-spacing: -0.04em;
-   
 }
 
 .underline {
     text-decoration-color: #D53B4A;
+}
+
+.text {
+    margin-right: 10px;
 }
