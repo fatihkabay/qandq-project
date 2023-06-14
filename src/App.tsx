@@ -1,8 +1,10 @@
 import "./App.css";
 import DefaultLayout from "./layouts/DefaultLayout";
 import Contact from "./pages/Contact";
+
 import Promotion from "./pages/Promotion";
 import Home from "./pages/Home";
+import OurMission from "./pages/OurMission";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <DefaultLayout>
         <Home />
         <Promotion />
+        <OurMission />
       </DefaultLayout>
     </div>
   );
